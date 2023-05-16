@@ -6,7 +6,7 @@ const QuestItem = (props) => {
 	return (
 		<div className='bg-green-500 rounded-lg m-1 flex flex-row'>
 			<div
-				className='cursor-pointer rounded-tl-lg rounded-bl-lg bg-gray-50 border border-green-500 p-4'
+				className='cursor-pointer shadow-md rounded-tl-lg rounded-bl-lg bg-gray-50 border border-green-500 p-4'
 				onClick={() => props.onComplete()}
 			>
 				<FontAwesomeIcon icon={faCheck} className='m-auto' />
